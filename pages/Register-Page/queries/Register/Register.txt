@@ -1,0 +1,6 @@
+{
+	"name": {{Name.text}},
+	"username": {{Username.text}},
+	"password": {{Password.text}},
+	"reenterPassword": {{ReenterPassword.text}}
+}

@@ -7,7 +7,7 @@
   "pages": [
     {
       "id": "Login-Page",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Recommend-Input",
@@ -28,6 +28,10 @@
     {
       "id": "Register-Page",
       "isDefault": false
+    },
+    {
+      "id": "Home",
+      "isDefault": true
     }
   ]
 }
