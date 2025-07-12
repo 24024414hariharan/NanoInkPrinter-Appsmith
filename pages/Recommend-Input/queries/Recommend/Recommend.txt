@@ -1,0 +1,18 @@
+{
+    "inkProperties": {
+        "viscosity_mPas": {{viscosity_mPas.text}},
+        "surfaceTension_Npm": {{viscosity_mPas.text}},
+        "density_kgpm3": {{density_kgpm3.text}},
+        "suppressSatellite": {{suppressSatellite.selectedOptionValue}}
+    },
+    "nozzle": {
+        "diameter_um": {{diameter_um.text}},
+        "length_mm": {{length_mm.text}},
+        "temperature_C": {{temperature_C.text}}
+    },
+    "desiredDroplet": {
+        "size_um": {{size_um.text}},
+        "velocity_mps": {{velocity_mps.text}},
+        "breakOffTime_us": {{breakOffTime_us.text}}
+    }
+}

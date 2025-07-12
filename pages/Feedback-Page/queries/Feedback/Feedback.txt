@@ -1,0 +1,35 @@
+{
+    "rating": {{rating.selectedOptionValue}},
+    "comments": {{comments.text}},
+    "inkProperties": {
+        "viscosity_mPas": {{appsmith.store.recommend.inkProperties.viscosity_mPas}},
+        "surfaceTension_Npm": {{appsmith.store.recommend.inkProperties.surfaceTension_Npm}},
+        "density_kgpm3": {{appsmith.store.recommend.inkProperties.density_kgpm3}}
+    },
+    "nozzle": {
+        "diameter_um": {{appsmith.store.recommend.nozzle.diameter_um}},
+        "length_mm": {{appsmith.store.recommend.nozzle.length_mm}},
+        "temperature_C": {{appsmith.store.recommend.nozzle.temperature_C}}
+    },
+    "desiredDroplet": {
+        "size_um": {{appsmith.store.recommend.desiredDroplet.size_um}},
+        "velocity_mps": {{appsmith.store.recommend.desiredDroplet.velocity_mps}},
+        "breakOffTime_us": {{appsmith.store.recommend.desiredDroplet.breakOffTime_us}}
+    },
+    "waveform": {
+        "riseTime_us": {{appsmith.store.recommend.finalRecommendation.waveform.riseTime_us}},
+        "fallTime_us": {{appsmith.store.recommend.finalRecommendation.waveform.fallTime_us}},
+        "peakPressure_Pa": {{appsmith.store.recommend.finalRecommendation.waveform.peakPressure_Pa}},
+        "negativePeakPressure_Pa": {{appsmith.store.recommend.finalRecommendation.waveform.negativePeakPressure_Pa}},
+        "recoveryTime_us": {{appsmith.store.recommend.finalRecommendation.waveform.recoveryTime_us}},
+        "dwellTime_us": {{appsmith.store.recommend.finalRecommendation.waveform.dwellTime_us}},
+        "shape": {{appsmith.store.recommend.finalRecommendation.waveform.shape}}
+    },
+    "droplet": {
+        "size_um": {{appsmith.store.recommend.finalRecommendation.droplet.size_um}},
+        "velocity_mps": {{appsmith.store.recommend.finalRecommendation.droplet.velocity_mps}},
+        "breakOffTime_us": {{appsmith.store.recommend.finalRecommendation.droplet.breakOffTime_us}},
+        "hasSatellite": {{appsmith.store.recommend.finalRecommendation.droplet.hasSatellite}},
+        "stabilityClass": {{appsmith.store.recommend.finalRecommendation.droplet.stabilityClass}}
+    }
+}

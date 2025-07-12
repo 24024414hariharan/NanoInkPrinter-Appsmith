@@ -1,0 +1,33 @@
+{
+  "appIsExample": false,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#C7F3E3",
+  "evaluationVersion": 2,
+  "pages": [
+    {
+      "id": "Login-Page",
+      "isDefault": true
+    },
+    {
+      "id": "Recommend-Input",
+      "isDefault": false
+    },
+    {
+      "id": "Display-Recommend",
+      "isDefault": false
+    },
+    {
+      "id": "Feedback-Page",
+      "isDefault": false
+    },
+    {
+      "id": "Display-Final-page",
+      "isDefault": false
+    },
+    {
+      "id": "Register-Page",
+      "isDefault": false
+    }
+  ]
+}
