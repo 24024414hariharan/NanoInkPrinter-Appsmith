@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 53,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "7b40g3kz4x",
+  "leftColumn": 20,
+  "minWidth": 120,
+  "mobileBottomRow": 55,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 51,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Recommend-Input', {}, 'SAME_WINDOW');}}",
+  "parentColumnSpace": 11.62744140625,
+  "parentId": "14ra5m2kok",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 42,
+  "text": "Go to Recommender Page",
+  "topRow": 49,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "jom18k9ixf",
+  "widgetName": "Button1"
+}
